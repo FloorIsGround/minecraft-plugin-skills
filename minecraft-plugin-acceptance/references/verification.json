@@ -1,0 +1,88 @@
+{
+  "recorded_on": "2026-11-17",
+  "basis": "Fresh executions of newly authored fictional teaching code.",
+  "model": {
+    "status": "PASS",
+    "evidence_level": "synthetic policy model",
+    "assertions": {
+      "count": 937,
+      "all_passed": true
+    },
+    "observations": {
+      "same_actor_permission_changes_checked": 120,
+      "populations": [
+        {
+          "synthetic_actors": 3,
+          "action_attempts": 12,
+          "claims_granted": 4,
+          "stages": 4
+        },
+        {
+          "synthetic_actors": 32,
+          "action_attempts": 128,
+          "claims_granted": 45,
+          "stages": 4
+        },
+        {
+          "synthetic_actors": 128,
+          "action_attempts": 512,
+          "claims_granted": 179,
+          "stages": 4
+        }
+      ]
+    },
+    "inputs": {
+      "source_sha256": "9522f96652fc430771c5d686a1ff8d89a4dd03a6efd948c0847a4c3e8c3c26ed"
+    }
+  },
+  "native_cases": [
+    {
+      "status": "PASS",
+      "native_players": 4,
+      "assertion_count": 38,
+      "network_commands_processed": 16,
+      "server": "1.21.8-60-29c8822 (MC: 1.21.8)",
+      "java": "21.0.12.1",
+      "server_exit_code": 0,
+      "inputs": {
+        "server_sha256": "c64fb7dbc95cd15aa0b7460a5b1e117eef5ee91c4e6fa7a8f1fe6487b6c31507",
+        "libraries_manifest_sha256": "423de1105ae33656c094ebb2b24072bfdc8b1ace2ca5bb6959b77b9c718637b9",
+        "plugin_sha256": "6b7044eb3ee7916732e026050d9456e75b54f410ee7db6090c89064471ffdf61",
+        "protocol_version": "1.21.8",
+        "client_package_version": "1.68.0",
+        "source_sha256": {
+          "native.py": "830ccef3e9aa7a38cdb16c18ebef0d25be07df49eaf24678a94edcc21250070f",
+          "native/WorkshopExample.java": "658b4bc0a89fd1f9e9b7082e809f0b8f4f4a375274b4cda528c045ba37fdd19e",
+          "native/clients.js": "71d339f50f4b070356d93f66718f33650290f26536b9380e8700db56477c6f16",
+          "native/plugin.yml": "e2b8eb90c5af9e9a5579f9ea92691bdebc4043c9cd8d5a4b55fdcb7f88d43bcc"
+        }
+      }
+    },
+    {
+      "status": "PASS",
+      "native_players": 32,
+      "assertion_count": 262,
+      "network_commands_processed": 128,
+      "server": "1.21.8-60-29c8822 (MC: 1.21.8)",
+      "java": "21.0.12.1",
+      "server_exit_code": 0,
+      "inputs": {
+        "server_sha256": "c64fb7dbc95cd15aa0b7460a5b1e117eef5ee91c4e6fa7a8f1fe6487b6c31507",
+        "libraries_manifest_sha256": "423de1105ae33656c094ebb2b24072bfdc8b1ace2ca5bb6959b77b9c718637b9",
+        "plugin_sha256": "f636f88ba4318c711662c8b93921af3bd87ba9edd9de55257633edc624ca9d43",
+        "protocol_version": "1.21.8",
+        "client_package_version": "1.68.0",
+        "source_sha256": {
+          "native.py": "830ccef3e9aa7a38cdb16c18ebef0d25be07df49eaf24678a94edcc21250070f",
+          "native/WorkshopExample.java": "658b4bc0a89fd1f9e9b7082e809f0b8f4f4a375274b4cda528c045ba37fdd19e",
+          "native/clients.js": "71d339f50f4b070356d93f66718f33650290f26536b9380e8700db56477c6f16",
+          "native/plugin.yml": "e2b8eb90c5af9e9a5579f9ea92691bdebc4043c9cd8d5a4b55fdcb7f88d43bcc"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Synthetic permission attachments; no external permission provider.",
+    "Small bounded functional workloads; no production capacity or TPS conclusion."
+  ]
+}

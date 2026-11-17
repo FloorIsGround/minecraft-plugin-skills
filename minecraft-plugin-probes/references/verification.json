@@ -1,0 +1,16 @@
+{
+  "recorded_on": "2026-11-17",
+  "basis": "Fresh executions of newly authored fictional teaching code.",
+  "status": "PASS",
+  "evidence_level": "offline lifecycle model",
+  "cases_per_build": 16,
+  "assertions": {
+    "original_defect_reproduced": true,
+    "original_controls_pass": true,
+    "patched_invariants_pass": true
+  },
+  "inputs": {
+    "TokenExchange.java": "24defba14ffea06e9cb1944885c407d10fd3c6bb9a1279482dec3d446b35ee50",
+    "atomic-debit.patch": "b5c8410889432f52b9dd5257ba53506770d499827adfbb6642fd8cee4071398e"
+  }
+}

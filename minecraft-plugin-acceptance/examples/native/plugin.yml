@@ -1,0 +1,14 @@
+name: WorkshopExample
+version: '1.0.0'
+main: example.workshop.WorkshopExample
+api-version: '1.21'
+commands:
+  workshop:
+    description: Fictional workshop action.
+  workshoplab:
+    description: Console-only acceptance fixture control.
+permissions:
+  workshop.claim:
+    default: false
+  workshop.inspect:
+    default: false

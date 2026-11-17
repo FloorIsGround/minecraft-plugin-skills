@@ -1,0 +1,16 @@
+--- a/TokenExchange.java
++++ b/TokenExchange.java
+@@ -26,11 +26,9 @@
+ 
+     static boolean redeem(State state, Clock clock) {
+         if (!state.online || !state.open || state.carried < 2) return false;
++        // Commit both changes in this controlled, non-throwing transaction.
++        state.carried -= 2;
+         state.badges++;
+-        int remainder = state.carried - 2;
+-        clock.nextTick(() -> {
+-            if (state.online) state.carried = remainder;
+-        });
+         return true;
+     }
+ 

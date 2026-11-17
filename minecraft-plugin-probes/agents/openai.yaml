@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Plugin Probes"
+  short_description: "Reproduce timing bugs and verify a narrow patch"
+  default_prompt: "Use $minecraft-plugin-probes to reproduce this plugin bug and verify a minimal fix."

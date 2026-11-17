@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Plugin Acceptance"
+  short_description: "Check roles, native clients, and scaled workloads"
+  default_prompt: "Use $minecraft-plugin-acceptance to validate this plugin change with the relevant roles and player workload."
